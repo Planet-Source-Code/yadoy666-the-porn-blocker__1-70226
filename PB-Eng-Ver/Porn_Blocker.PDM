@@ -1,0 +1,128 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Standard Setup Package 1|YaDoY SoFtWaRe DeVeLoPmEnT]
+Icon1=Porn_Blocker.exe
+Title1=The Porn Blocker
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Documents and Settings\YaDoY666\My Documents\skripsi\PB-Setup
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+back.txt=C:\PB-SC\back.txt
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+
+[Package|Standard Setup Package 1|Files Added]
+c:\documents and settings\yadoy666\my documents\skripsi\aplikasinya\back.txt=
+c:\documents and settings\yadoy666\my documents\skripsi\aplikasinya\list.txt=
+c:\documents and settings\yadoy666\my documents\skripsi\aplikasinya\pass.txt=
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Documents and Settings\YaDoY666\My Documents\skripsi\Aplikasinya\Porn Blocker.exe=Yes
+C:\Documents and Settings\YaDoY666\My Documents\skripsi\Aplikasinya\back.txt=Yes
+C:\Documents and Settings\YaDoY666\My Documents\skripsi\Aplikasinya\list.txt=Yes
+C:\Documents and Settings\YaDoY666\My Documents\skripsi\Aplikasinya\pass.txt=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\Aplikasinya\Porn_Blocker.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Aplikasinya\back.txt=$(AppPath)
+C:\Aplikasinya\list.txt=$(AppPath)
+C:\Aplikasinya\pass.txt=$(AppPath)
+C:\Aplikasinya\Porn Blocker.exe=$(AppPath)
+C:\PB-SC\Porn Blocker.exe=$(AppPath)
+C:\PB-SC\back.txt=$(AppPath)
+C:\PB-SC\list.txt=$(AppPath)
+C:\PB-SC\pass.txt=$(AppPath)
+C:\Documents and Settings\YaDoY666\My Documents\skripsi\Aplikasinya\Porn Blocker.exe=$(AppPath)
+C:\Documents and Settings\YaDoY666\My Documents\skripsi\Aplikasinya\back.txt=$(AppPath)
+C:\Documents and Settings\YaDoY666\My Documents\skripsi\Aplikasinya\list.txt=$(AppPath)
+C:\Documents and Settings\YaDoY666\My Documents\skripsi\Aplikasinya\pass.txt=$(AppPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\Aplikasinya\Porn_Blocker.exe=No
+C:\Aplikasinya\back.txt=No
+C:\Aplikasinya\list.txt=No
+C:\Aplikasinya\pass.txt=No
+C:\Aplikasinya\Porn Blocker.exe=No
+C:\PB-SC\Porn Blocker.exe=No
+C:\PB-SC\back.txt=No
+C:\PB-SC\list.txt=No
+C:\PB-SC\pass.txt=No
+C:\Documents and Settings\YaDoY666\My Documents\skripsi\Aplikasinya\Porn Blocker.exe=No
+C:\Documents and Settings\YaDoY666\My Documents\skripsi\Aplikasinya\back.txt=No
+C:\Documents and Settings\YaDoY666\My Documents\skripsi\Aplikasinya\list.txt=No
+C:\Documents and Settings\YaDoY666\My Documents\skripsi\Aplikasinya\pass.txt=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=The Porn Blocker
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=The Porn Blocker
+PrivateGroup0=False
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|The Porn Blocker]
+Icon1="Porn Blocker.exe"
+Title1=The Porn Blocker
+StartIn1=$(AppPath)
+Key1=Icon5
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=C:\Documents and Settings\YaDoY666\My Documents\skripsi\PB-Setup
+ProjectFolder=C:\Documents and Settings\YaDoY666\My Documents\skripsi\Aplikasinya
+ServerSideCab=
+File1=C:\Documents and Settings\YaDoY666\My Documents\skripsi\PB-Setup\setup.exe
+File2=C:\Documents and Settings\YaDoY666\My Documents\skripsi\PB-Setup\Setup.Lst
+File3=C:\Documents and Settings\YaDoY666\My Documents\skripsi\PB-Setup\Porn Blocker.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
